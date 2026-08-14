@@ -1,6 +1,7 @@
 {
   "name": "mbox-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "mcpName": "io.github.arose26/mbox-mcp",
   "description": "MCP server for local email archives — search and read Google Takeout .mbox exports and .eml files entirely on your machine. No OAuth, no IMAP, no cloud.",
   "type": "module",
   "bin": {

@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.arose26/mbox-mcp",
-  "description": "Search and read local email archives — Google Takeout .mbox exports and .eml files — entirely on your machine. No OAuth, no IMAP, no cloud.",
+  "description": "Search local email archives (.mbox/.eml) entirely on your machine. No OAuth, no cloud.",
   "repository": {
     "url": "https://github.com/arose26/mbox-mcp",
     "source": "github"

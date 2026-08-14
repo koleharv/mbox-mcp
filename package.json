@@ -1,0 +1,46 @@
+{
+  "name": "mbox-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for local email archives — search and read Google Takeout .mbox exports and .eml files entirely on your machine. No OAuth, no IMAP, no cloud.",
+  "type": "module",
+  "bin": {
+    "mbox-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "mbox",
+    "eml",
+    "email",
+    "google-takeout",
+    "thunderbird",
+    "archive",
+    "privacy",
+    "local",
+    "claude"
+  ],
+  "license": "MIT",
+  "author": "Kole Harvey",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "postal-mime": "^3.0.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0",
+    "@types/node": "^22.0.0"
+  }
+}

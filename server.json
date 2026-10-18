@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.arose26/mbox-mcp",
+  "name": "io.github.koleharv/mbox-mcp",
   "description": "Search local email archives (.mbox/.eml) entirely on your machine. No OAuth, no cloud.",
   "repository": {
-    "url": "https://github.com/arose26/mbox-mcp",
+    "url": "https://github.com/koleharv/mbox-mcp",
     "source": "github"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "mbox-mcp",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "transport": {
         "type": "stdio"
       }

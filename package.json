@@ -1,7 +1,7 @@
 {
   "name": "mbox-mcp",
-  "version": "0.1.1",
-  "mcpName": "io.github.arose26/mbox-mcp",
+  "version": "0.1.2",
+  "mcpName": "io.github.koleharv/mbox-mcp",
   "description": "MCP server for local email archives — search and read Google Takeout .mbox exports and .eml files entirely on your machine. No OAuth, no IMAP, no cloud.",
   "type": "module",
   "bin": {
@@ -33,7 +33,7 @@
   "author": "Kole Harvey",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arose26/mbox-mcp.git"
+    "url": "git+https://github.com/koleharv/mbox-mcp.git"
   },
   "engines": {
     "node": ">=18"
